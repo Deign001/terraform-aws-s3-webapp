@@ -11,7 +11,7 @@ provider "aws" {
   region = var.region
 }
 
-resource "aws_s3_bucket" "bucket" {
+resource "aws_s3_bucket" "bucket4shiloh" {
   bucket = "${var.prefix}-${var.name}"
 
   force_destroy = true
